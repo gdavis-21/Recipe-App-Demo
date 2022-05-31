@@ -16,6 +16,7 @@
 		7721E3592836DB9D00303D7D /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721E3582836DB9D00303D7D /* RecipeModel.swift */; };
 		7721E35B2836DDC300303D7D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721E35A2836DDC300303D7D /* DataService.swift */; };
 		7721E379283AED5100303D7D /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721E378283AED5100303D7D /* RecipeDetailView.swift */; };
+		77601B662846D2D2008D1586 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77601B652846D2D2008D1586 /* RecipeFeaturedView.swift */; };
 		7778EA7C283F107100AF30D3 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7778EA7B283F107100AF30D3 /* RecipeTabView.swift */; };
 		77D9C7C72846C73C004A0059 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9C7C62846C73C004A0059 /* Ingredient.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		7721E3582836DB9D00303D7D /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		7721E35A2836DDC300303D7D /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		7721E378283AED5100303D7D /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		77601B652846D2D2008D1586 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 		7778EA7B283F107100AF30D3 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		77D9C7C62846C73C004A0059 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 				7721E3302836D81A00303D7D /* RecipeListView.swift */,
 				7721E378283AED5100303D7D /* RecipeDetailView.swift */,
 				7778EA7B283F107100AF30D3 /* RecipeTabView.swift */,
+				77601B652846D2D2008D1586 /* RecipeFeaturedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				7721E3592836DB9D00303D7D /* RecipeModel.swift in Sources */,
 				7721E3312836D81A00303D7D /* RecipeListView.swift in Sources */,
 				77D9C7C72846C73C004A0059 /* Ingredient.swift in Sources */,
+				77601B662846D2D2008D1586 /* RecipeFeaturedView.swift in Sources */,
 				7721E32F2836D81A00303D7D /* Recipe_List_App.swift in Sources */,
 				7721E35B2836DDC300303D7D /* DataService.swift in Sources */,
 				7778EA7C283F107100AF30D3 /* RecipeTabView.swift in Sources */,
