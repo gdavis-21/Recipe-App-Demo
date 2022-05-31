@@ -14,8 +14,8 @@
             filePath = "Recipe_List_App/Services/DataService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "getLocalData()"
             landmarkType = "7">
          </BreakpointContent>
