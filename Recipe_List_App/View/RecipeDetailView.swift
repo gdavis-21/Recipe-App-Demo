@@ -9,6 +9,8 @@ import SwiftUI
 
 struct RecipeDetailView: View {
     
+    @State var selectedPortionSize = 2
+    
     var recipe: Recipe
     
     var body: some View {
@@ -21,13 +23,33 @@ struct RecipeDetailView: View {
                     .resizable()
                     .scaledToFit()
                 
+                //MARK: Portion Picker
+                VStack(alignment: .leading) {
+                Text("Select your portion size:")
+                Picker(selection: $selectedPortionSize, content: {
+                        Text("2")
+                            .tag(2)
+                        Text("4")
+                            .tag(4)
+                        Text("6")
+                            .tag(6)
+                        Text("8")
+                            .tag(8)
+                    }, label: {
+                        Text("")
+                    })
+                    .pickerStyle(SegmentedPickerStyle())
+                    .frame(width: 160)
+                }
+                .padding()
+                
                 //MARK: Ingredients
                 VStack(alignment: .leading) {
                     Text("Ingredients")
                         .font(.headline)
                         .padding([.bottom, .top], 2)
                     ForEach(recipe.ingredients) { r in
-                        Text("• " + r.name)
+                        Text("• " + RecipeModel.calculatePortion(ingredient: r, recipePortion: recipe.servings, targetPortion: selectedPortionSize) + " " + r.name)
                     }
                 }.padding(.horizontal)
                 
