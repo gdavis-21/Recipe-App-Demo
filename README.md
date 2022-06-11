@@ -43,3 +43,6 @@
 - Fetch the JSON data from an API.
 - Add a way to sort the recipes. 
 - Add additional recipes.
+
+# Appreciation
+CodeWithChris
