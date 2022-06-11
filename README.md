@@ -1,5 +1,10 @@
 # Recipe-App-Demo
 
+## Images of App:
+![Featured View](Recipe-App-Demo/Featured View)
+![List View](Recipe-App-Demo/List View)
+![Detailed View](Recipe-App-Demo/Detailed View)
+
 ## The Recipe App Demo is a project to test and learn about SwiftUI features:
 - TabViews
 - NavigationViews
@@ -33,7 +38,6 @@
 
 ### The logic and data are handled in the recipe view model (View Model)
 - RecipeModel
-
 
 ## Future Updates
 - Fetch the JSON data from an API.
