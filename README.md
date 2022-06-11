@@ -9,7 +9,7 @@
 - JSON Decoding
 - MVVM 
 
-MVVM
+## MVVM
 ### A Recipe is modeled as a class with the attributes: (Model)
 - id: UUID
 - name: String
@@ -25,17 +25,17 @@ MVVM
 - highlights: [String]
 
 
-## The Demo is divided into five views (V)
+### The Demo is divided into five views (V)
 - RecipeFeaturedView
 - RecipeListView
 - RecipeDetailView
 - RecipeHighlights
 
-## The logic and data are handled in the recipe view model (View Model)
+### The logic and data are handled in the recipe view model (View Model)
 - RecipeModel
 
 
-# Future Updates
+## Future Updates
 - Fetch the JSON data from an API.
 - Add a way to sort the recipes. 
 - Add additional recipes.
