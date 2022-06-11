@@ -1,9 +1,9 @@
 # Recipe-App-Demo
 
 ## Images of App:
-![Featured View](/Featured-View)
-![List View](/List-View)
-![Detailed View](/Detailed-View)
+![Featured View](/Featured-View.png)
+![List View](/List-View.png)
+![Detailed View](/Detailed-View.png)
 
 ## The Recipe App Demo is a project to test and learn about SwiftUI features:
 - TabViews
